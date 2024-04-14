@@ -1,0 +1,53 @@
+.submenu {
+    list-style: none; 
+}
+
+.submenu #carrito{
+    display: none;
+}
+
+.imagen-carrito{
+    width: 100px; 
+    height: auto; 
+}
+
+#carrito {
+    display: none;
+    position: absolute; 
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+.submenu:hover #carrito {
+    display: block;
+}
+#vaciar-carrito {
+    display: block;
+    text-align: center;
+}
+
+#lista-carrito {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #lista-carrito th,
+  #lista-carrito td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #lista-carrito th {
+    background-color: #f2f2f2;
+  }
+  
+  #lista-carrito tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

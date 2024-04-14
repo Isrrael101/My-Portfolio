@@ -1,0 +1,81 @@
+.agregar-carrito {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  /* Color de fondo del botón */
+  color: #fff;
+  /* Color del texto */
+  text-decoration: none;
+  /* Eliminar subrayado */
+  border: none;
+  /* Eliminar borde */
+  border-radius: 4px;
+  /* Añadir bordes redondeados */
+  cursor: pointer;
+  /* Cambiar cursor al pasar el ratón */
+  text-align: center;
+  /* Alinear texto al centro */
+  transition: background-color 0.3s ease;
+  /* Agregar transición al color de fondo */
+}
+
+.agregar-carrito:hover {
+  background-color: #0056b3;
+  /* Cambiar color de fondo al pasar el ratón */
+}
+
+.precio {
+  font-size: 16px;
+  /* Tamaño de fuente */
+  color: #333;
+  /* Color del texto */
+}
+
+.precio del {
+  position: relative;
+  /* Para posicionar la línea */
+}
+
+.precio del::after {
+  content: "";
+  /* Agregamos un contenido vacío */
+  position: absolute;
+  /* Lo posicionamos sobre el texto */
+  bottom: 50%;
+  /* Lo colocamos en la mitad de la altura del texto */
+  left: 0;
+  /* Alineamos al inicio del texto */
+  width: 100%;
+  /* Hacemos que la línea abarque todo el ancho */
+  height: 1px;
+  /* Grosor de la línea */
+  background-color: #fff;
+  /* Color de la línea */
+}
+
+.precio span {
+  font-weight: bold;
+  /* Hacer que el precio actual sea negrita */
+  color: #333;
+  /* Color del texto */
+}
+
+.precio span:last-child {
+  font-weight: bold;
+  /* Hacer que el precio actual sea negrita */
+  color: white;
+  /* Color del texto */
+}
+
+.borrar-curso {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.borrar-curso:hover {
+  background-color: #cc0000;
+}
